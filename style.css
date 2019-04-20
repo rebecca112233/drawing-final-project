@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: salmon;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+#title{
+    margin: 1em;
+    font-size: 3em;
+}
+
+#circles{
+    margin: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    background-color: darkslategray;
+}
+
+.circle:hover{
+    background-color: grey;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:1000px){
+    .circle{
+        height:200px;
+        width:200px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .circle{
+        height:150px;
+        width:150px;
+    }
+}
