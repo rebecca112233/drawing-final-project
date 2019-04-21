@@ -8,7 +8,7 @@ body{
 }
 #sun{
     float: right;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 200px;
     height:100px;
     width:100px;
@@ -37,8 +37,27 @@ body{
     left: 1em;
 }
 .cloud:after {
-    height: 3em;
-    width: 3em;
+    height: 40px;
+    width: 40px;
     top: -1em;
     right: 1em;
+}
+.big{
+    transform: scale(1.2);
+    animation: moveAcross 20s linear infinite;
+}   
+.medium{
+    animation: moveAcross 30s linear infinite;
+}
+.small{
+    transform: scale(0.8);
+    animation: moveAcross 25s linear infinite;
+}
+@keyframes moveAcross{
+    from{
+        margin-left:-30%;
+    }
+    to{
+        margin-left:100%;
+    }
 }
