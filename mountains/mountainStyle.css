@@ -1,0 +1,17 @@
+body{
+    /* background-color: skyblue; */
+    background: url(mountains-background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#sun{
+    float: right;
+    margin-top: 100px;
+    margin-right: 200px;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color: gold;
+}
