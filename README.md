@@ -2,7 +2,7 @@
 Created using CSS animations.
 
 ## Outline
-I want to create three flat landscape scenes that have moving properties with time. I t hought it would be fun to do three vastly different landscapes, so for now, I have settled on mountains, an underwater scene, and a cityscape. Overall, because there will be a lot of different shapes, I am thinking that I will create SVGs using Illustrator for the different components, and then animate them using JavaScript and CSS.
+I want to create three flat landscape scenes that have moving properties with time. I thought it would be fun to do three vastly different landscapes, so for now, I have settled on mountains, an underwater scene, and a cityscape. Overall, because there will be a lot of different shapes, I am thinking that I will create SVGs using Illustrator for the different components, and then animate them using JavaScript and CSS.
 
 ### 1. First Drawing (Mountains)
 For the mountains, I am doing three mountain peaks, some trees, and then a few slow moving clouds. These clouds will move across the page and disappear, and then it will start over. 
