@@ -15,3 +15,30 @@ body{
     border-radius:50%;
     background-color: gold;
 }
+.cloud{
+    background-color: azure;
+    margin: 4em;
+    height: 50px;
+    width: 120px;
+    border-radius: 2em;
+    opacity: 0.5;
+    position: relative;
+}
+.cloud:before, .cloud:after {
+    content: '';
+    background-color: azure;
+    border-radius: 50%;
+    position: absolute;
+}
+.cloud:before {
+    height: 60px;
+    width: 60px;
+    top: -1.5em;
+    left: 1em;
+}
+.cloud:after {
+    height: 3em;
+    width: 3em;
+    top: -1em;
+    right: 1em;
+}
