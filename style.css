@@ -28,11 +28,20 @@ p{
     border-radius: 50%;
     background-color: darkslategray;
 }
-
+/* 
 .circle:hover{
     background-color: grey;
+} */
+
+#mountains:hover{
+    background-image: url('./mountains/mountains-background.svg');
+    background-color:lightblue;
 }
 
+#city:hover{
+    background-image: url('./city/city.svg');
+    background-color: lightblue;
+}
 .button a{
     text-decoration: none;
     color: white;
