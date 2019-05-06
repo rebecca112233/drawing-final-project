@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background: url(city.svg) no-repeat center center fixed;
+    background-color: rgba(96,195,255,1);
+    animation-name: dayToNight;
+    animation-duration: 20s;
+    -webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+    overflow-x: hidden;
+}
+
+#sun{
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color: gold;
+    animation-name: sunMove;
+    animation-duration: 20s;
+    -webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+.cloud{
+    background-color: azure;
+    margin: 4em;
+    height: 50px;
+    width: 120px;
+    border-radius: 2em;
+    opacity: 0.5;
+    position: relative;
+}
+.cloud:before, .cloud:after {
+    content: '';
+    background-color: azure;
+    border-radius: 50%;
+    position: absolute;
+}
+.cloud:before {
+    height: 60px;
+    width: 60px;
+    top: -1.5em;
+    left: 1em;
+}
+.cloud:after {
+    height: 40px;
+    width: 40px;
+    top: -1em;
+    right: 1em;
+}
+.big{
+    transform: scale(1.2);
+    animation: moveAcross 20s linear infinite;
+}   
+.medium{
+    animation: moveAcross 30s linear infinite;
+}
+.small{
+    transform: scale(0.8);
+    animation: moveAcross 25s linear infinite;
+}
+@keyframes moveAcross{
+    from{
+        margin-left:-30%;
+    }
+    to{
+        margin-left:100%;
+    }
+}
+
+@keyframes dayToNight{
+    0%{
+        background-color:rgba(96,195,255,1);
+    }
+    100%{
+        background-color: rgba(22,46,57,1);
+    }
+}
+
+@keyframes sunMove {
+    /* from{
+        margin-right:30%;
+    }
+    to{
+        margin-top:-30%;
+    } */
+    0%{
+        background-color: gold;
+    }
+    100%{
+        background-color: #FFFAC7;
+    }
+}
