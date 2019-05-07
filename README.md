@@ -7,10 +7,10 @@ I want to create three flat landscape scenes that have moving properties with ti
 ### 1. First Drawing (Mountains)
 For the mountains, I am doing three mountain peaks, some trees, and then a few slow moving clouds. These clouds will move across the page and disappear, and then it will start over. 
 
-### 2. Second Drawing (Underwater)
-For the underwater scene, I thought it would be cool to have some general shapes of rocks and sand dunes, and fish moving back and forth on the screen. 
-
-### 3. Third Drawing (City)
+### 2. Second Drawing (City)
 For the city one, I am going to have a lot of differently sized buildings. I plan to do it somewhat like a timelapse, because the city is so fast moving. I want to have it transition from day to night, have the sun set, the moon rise, the colors in the sky change, and light up the windows in the buildings. However, I'm not sure if this is entirely possible in my time frame, because there are so many bits to change, especially the lights in the windows. If I don't get to do a slow transition of lights in the buildings, I can also directly light them up once it turns to night.
 
 Alternatively, I could do just a night scene and have the stars twinkle and do more with random lights in the windows of buildings turning on. I think this one will just have to be more of a trial and error.
+
+### 3. Third Drawing (Space)
+For the space scene, I have a rocket revolving around the Earth, and the moon and sun also revolving further away. The only thing that doesn't move is is the earth, because of course, we believe in the geocentric model of the solar system.
