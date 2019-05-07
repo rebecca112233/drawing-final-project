@@ -10,22 +10,55 @@
             <div class="button">
                 <a href="mountains/mountains.html">
                     <div class="circle" id="mountains"></div>
-                    <p>Mountains</p>
+                    <p id="mountword">Mountains</p>
                 </a>
             </div>
             <div class="button">
                 <a href="city/city.html">
                     <div class="circle" id="city"></div>
-                    <p>City</p>
+                    <p id="cityword">City</p>
                 </a>
             </div>
             <div class="button">
                 <a href="space/space.html">
                     <div class="circle" id="space"></div>
-                    <p>Space</p>
-                </a>
+                    <p id="spaceword">Space</p>
+                </a> 
             </div>
         </div>
+        <script>
+            // document.getElementsByClassName('circle');
+            document.getElementById('mountains');
+            document.getElementById('city');
+            document.getElementById('space');
+
+            document.getElementById('mountword');
+            document.getElementById('cityword');
+            document.getElementById('spaceword');
+
+            mountains.onmouseover = function(){
+                mountword.innerHTML = "MOUNTAINS"; 
+            }
+
+            mountains.onmouseout = function(){
+                mountword.innerHTML = "Mountains";
+            }
+
+            city.onmouseover = function(){
+                cityword.innerHTML = "CITY";
+            }
+
+            city.onmouseout = function() {
+                cityword.innerHTML = "City";
+            }
+
+            space.onmouseover = function(){
+                spaceword.innerHTML = "SPACE";
+            }
+            space.onmouseout = function(){
+                spaceword.innerHTML = "Space";
+            }
+        </script>
     </body>
 </html>
 <!-- ADD JAVASCRIPT FOR NAVIGATION -->
