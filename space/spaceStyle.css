@@ -1,4 +1,103 @@
 body{
     margin: 0;
     background: url(background.png);
+    /* position: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+#rocket{
+    position: fixed;
+    /* margin-left: 35vw; */
+    /* float: left; */
+    margin-top: 550px;
+    /* margin-bottom: 0px; */
+    max-width:200px;
+    margin-left:500px;
+    animation-name: rocketRotate;
+    animation-duration: 10s;
+    -webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+#earth{
+    position: fixed;
+    margin-top: 350px;
+    margin-right:200px;
+    margin-left: 300px;
+    /* margin-left:35vw; */
+    /* float: center; */
+    /* border: 1px solid black; */
+    width:600px;
+}
+/* #earth{
+    margin-top: 300px;
+} */
+
+#sun{
+    position: fixed;
+    margin-top:500px;
+    margin-left:800px;
+    margin-right:200px;
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    background-color: gold;
+    animation-name: sunRotate;
+    animation-duration: 20s;
+    -webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+#moon{
+    position: fixed;
+    margin-top:600px;
+    margin-left:400px;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color: lightgoldenrodyellow;
+    animation-name: moonRotate;
+    animation-duration: 20s;
+    -webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+@keyframes rocketRotate {
+    from{
+        transform: rotate(0deg) translate(-400px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(-400px) rotate(-360deg);
+    }
+}
+
+@keyframes moonRotate{
+    from{
+        transform: rotate(0deg) translate(-600px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(-600px) rotate(-360deg);
+    }
+}
+
+@keyframes sunRotate{
+    from{
+        transform: rotate(360deg) translate(-700px) rotate(-360deg);
+    }
+    to{
+        transform: rotate(0deg) translate(-700px) rotate(0deg);
+    }
 }

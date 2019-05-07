@@ -87,12 +87,6 @@ body{
 }
 
 @keyframes sunMove {
-    /* from{
-        margin-right:30%;
-    }
-    to{
-        margin-top:-30%;
-    } */
     0%{
         background-color: gold;
     }
