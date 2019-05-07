@@ -42,6 +42,9 @@ p{
     background-image: url('./city/city.svg');
     background-color: lightblue;
 }
+#space:hover{
+    background-image: url('./space/space.svg');
+}
 .button a{
     text-decoration: none;
     color: white;
